@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student portal</title>
+</head>
+<body>
+    <header>
+    <h1>Welcome to my student portal</h1>
+</header>
+     <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="course.html">Courses</a></li>
+            <li><a href="grade.html">Grades</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+            <li><a href="contact .html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h2> Home</h2>
+        <p>Welcome to my personal student portal! Here you can learn more about me, my academic courses, my performance, and also share your feedback.</p>
+    </section>
+
+    <hr>
+
+    <!-- Profile Section -->
+    <section id="profile">
+        <h2> My Profile</h2>
+        <h3>Personal Details</h3>
+        <p><strong>Name:</strong> Akanksha Dewangan</p>
+        <p><strong>Student ID:</strong> 12345</p>
+        <p><strong>Department:</strong> Computer Science</p>
+        <h3>Hobbies</h3>
+        <ul> 
+            <li>Reading</li>
+            <li>Coding</li>
+            <li>Traveling</li>
+        </ul>
+        <h3>Goals</h3>
+        <ol>
+            <li>Become a Web Developer</li>
+            <li>Learn JavaScript and Python</li>
+            <li>Work on real-world projects</li>
+        </ol>
+    </section>
+    <hr>
+    <!-- Courses Section -->
+    <section id="courses">
+        <h2> My Courses</h2>
+        <ul>
+            <li><strong>HTML & Web Fundamentals:</strong> Learning how to build web pages using HTML.</li>
+            <li><strong>Python Programming:</strong> Basics of programming and problem solving.</li>
+            <li><strong>Data Structures:</strong> Understanding how data is stored and managed.</li>
+            <li><strong>Computer Networks:</strong> Learning how computers communicate with each other.</li>
+        </ul>
+    </section>
+    <hr>
+    <!-- Grades Section -->
+    <section id="grades">
+        <h2> My Grades</h2>
+        <table border="1">
+            <caption>Student Grades Table</caption>
+            <thead>
+                <tr>
+                    <th>Course Name</th>
+                    <th>Grade</th>
+                    <th>Credits</th>
+                </tr>
+            </thead>
+            <tbody> 
+                <tr>
+                    <td>HTML & Web Fundamentals</td>
+                    <td>A</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Python Programming</td>
+                    <td>B+</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>Data Structures</td>
+                    <td>A-</td>
+                    <td>3</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">End of Grades Table</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+    <hr>
+    <!-- Feedback Section -->
+    <section id="feedback">
+        <h2> Submit Feedback</h2>
+        <form>
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+            <label>Feedback Type:</label><br>
+            <select>
+                <option>Website Design</option>
+                <option>Course Content</option>
+                <option>Other</option>
+            </select><br><br>
+            <label>Would you recommend this portal?</label><br>
+            <input type="radio" name="recommend" value="yes"> Yes
+            <input type="radio" name="recommend" value="no"> No<br><br>
+            <label>Comments:</label><br>
+            <textarea rows="5" cols="40"></textarea><br><br>
+            <button type="submit">Submit</button>
+        </form>
+        
+    </section>
+    <hr>
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p><strong>Email:</strong> <a href="mailto:akankshadewangan@navgurukul.org">akankshadewangan@navgurukul.org</a></p>
+        <p><strong>Phone:</strong> +91 7987022365</p>
+        <p><strong>Address:</strong> Dantewada, Chattisgarh, India</p>
+    </section>
+    <hr>
+</body>
+</html> 
